@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Restaurant</title>
+        
+        <!-- IE compability meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- bootstrap's grid and resposive utilities only -->
+        <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+        
+        <!--  Font awesome  -->
+        <link rel="stylesheet" href="css/vendors/font-awesome.min.css">
+		
+		<!-- playfair display google font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700">
+		
+        <!--  main css style  -->
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!--[if lt IE 9]>
+        <script src="js/vendors/html5shiv.min.js"></script>     // for html5 tags
+        <script src="js/vendors/respond.min.js"></script>       // for media query problems
+        <![endif]-->
+    </head>
+    <body>
+        
+        <!---------------- start header (logo + navbar) -------------------->
+        
+        <header>
+			<div class="content">
+				<div class="container">
+					<div class="logo">
+						<img src="images/logo.png" alt="restaurant-logo" draggable="false">
+					</div>
+					<nav>
+						<button class="nav-btn">
+							<span class="btn-line"></span>
+							<span class="btn-line"></span>
+							<span class="btn-line"></span>
+						</button>
+						<ul class="nav-list">
+							<li class="list-item">
+								<a href="#">Home</a>
+							</li>
+							<li class="list-item">
+								<a href="#">About Us</a>
+							</li>
+							<li class="list-item">
+								<a href="#">Testimonials</a>
+							</li>
+							<li class="list-item">
+								<a href="#">Contact Us</a>
+							</li>
+							<li class="list-item">
+								<a href="#">
+									Reservation
+									<span class="icon fa fa-angle-right"></span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div> <!-- end container -->
+			</div>
+        </header>
+        
+        <!---------------- end header (logo + navbar) -------------------->
+        
+        <!-------------------------- start main section ------------------->
+        
+        <section class="section main-section">
+			<div class="bg-image">
+				<img src="images/bg.jpg" alt="image" draggable="false">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="section-header">
+							<h1 class="section-title">
+								<span class="small">welcome</span>
+								<span class="playfair-font">prime beef steak<br>restaurant</span>
+							</h1>
+						</div>
+					</div>
+					<div class="section-info">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-6 hidden-xs">
+									<img src="images/dish.png" class="info-image" alt="dish" draggable="false">
+								</div>
+								<div class="col-xs-12 col-sm-6 info">
+									<p class="small">Book a table directly</p>
+									<p class="phone-number playfair-font">(014) 324 56 78</p>
+									<p>
+										Opening Hours: <span class="white">Mon-Fri:</span> 09:00 - 21:00 / <span class="white">Weekend:</span> 09:00 - 22:00
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        
+        
+        <!-------------------------- end main section --------------------->
+        
+        <!-------------------- start our-story section -------------------->
+        
+        <section class="section story-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xs-12">
+						<div class="section-header">
+							<h2 class="section-title">
+								<span class="small">our story</span>
+								<span class="playfair-font title">
+									Cooking Is The Art Of<br>Adjustment
+								</span>
+							</h2>
+						</div>
+						<div class="section-body">
+							<p class="paragraph">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. dapibus Tincidunt mollis pretium. Vivamus sodales eu sapien sitamet iaculis. Curabitur mollis quam dolor, quis gravida orci mattis non. Nam erat erat, tristique a elit at consectetur.
+							</p>
+							<p class="paragraph author">
+								<span class="black bold">Thomas Eggsy</span>
+								- 
+								<span class="italic">Master Cheft at AI Restaurant</span>
+							</p>
+							<a class="playfair-font btn" href="#">reservation</a>
+						</div>
+					</div>
+					<div class="col-sm-6 col-xs-12">
+						<div class="video">
+							<div class="ratio-holder">
+								<div class="ratio video-ratio"></div>
+								<div class="ratio-content">
+									<img src="images/videos/video-bg.jpg" class="video-bg" alt="video" draggable="false">
+									<div class="video-controller">
+										<button type="button" class="play">
+											play <span class="fa fa-play icon"></span>
+										</button> 
+									</div> 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+        
+        <!---------------------- end our-story section -------------------->
+        
+        <!---------------------- start menu section ----------------------->
+        
+        <section class="section menu-section bg-pattern">
+			<div class="container">
+				<div class="section-header text-center">
+					<h2 class="section-title">
+						<span class="small">special menu</span>
+						<span class="playfair-font title">
+							Delicious Flavour Of Autumn
+						</span>
+					</h2>
+				</div>
+				<div class="section-body">
+					<div class="slider-container menu-slider">
+						<div class="slider">
+							<div class="slider-banner row">
+								<div class="slider-item col-sm-4">
+									<div class="card clickable-item">
+										<a href="#" class="clickable-anchor"></a>
+										<div class="card-image have-price">
+											<div class="ratio-holder">
+												<div class="ratio menu-ratio"></div>
+												<div class="ratio-content">
+													<img src="images/menu/img-1.jpg" alt="image" draggable="false">
+												</div>
+											</div>
+											<div class="price-holder text-center">
+												<span class="price playfair-font">$25</span>
+											</div>
+										</div>
+										<div class="card-content text-center">
+											<div class="card-title black bold">
+												<a href="#"> Super BBQ Grill No Smoke </a>
+											</div>
+											<p class="paragraph">
+												Fried eggs, fried bacon, toast, fresh tomato salad, cup of coffee or tea
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="slider-item col-sm-4">
+									<div class="card clickable-item">
+										<a href="#" class="clickable-anchor"></a>
+										<div class="card-image have-price">
+											<div class="ratio-holder">
+												<div class="ratio menu-ratio"></div>
+												<div class="ratio-content">
+													<img src="images/menu/img-2.jpg" alt="image" draggable="false">
+												</div>
+											</div>
+											<div class="price-holder text-center">
+												<span class="price playfair-font">$42</span>
+											</div>
+										</div>
+										<div class="card-content text-center">
+											<div class="card-title black bold">
+												<a href="#"> Super BBQ Grill No Smoke </a>
+											</div>
+											<p class="paragraph">
+												Fried eggs, fried bacon, toast, fresh tomato salad, cup of coffee or tea
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="slider-item col-sm-4">
+									<div class="card clickable-item">
+										<a href="#" class="clickable-anchor"></a>
+										<div class="card-image have-price">
+											<div class="ratio-holder">
+												<div class="ratio menu-ratio"></div>
+												<div class="ratio-content">
+													<img src="images/menu/img-3.jpg" alt="image" draggable="false">
+												</div>
+											</div>
+											<div class="price-holder text-center">
+												<span class="price playfair-font">$30</span>
+											</div>
+										</div>
+										<div class="card-content text-center">
+											<div class="card-title black bold">
+												<a href="#"> Super BBQ Grill No Smoke </a>
+											</div>
+											<p class="paragraph">
+												Fried eggs, fried bacon, toast, fresh tomato salad, cup of coffee or tea
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="slider-item col-sm-4">
+									<div class="card clickable-item">
+										<a href="#" class="clickable-anchor"></a>
+										<div class="card-image have-price">
+											<div class="ratio-holder">
+												<div class="ratio menu-ratio"></div>
+												<div class="ratio-content">
+													<img src="images/menu/img-1.jpg" alt="image" draggable="false">
+												</div>
+											</div>
+											<div class="price-holder text-center">
+												<span class="price playfair-font">$30</span>
+											</div>
+										</div>
+										<div class="card-content text-center">
+											<div class="card-title black bold">
+												<a href="#"> Super BBQ Grill No Smoke </a>
+											</div>
+											<p class="paragraph">
+												Fried eggs, fried bacon, toast, fresh tomato salad, cup of coffee or tea
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="slider-item col-sm-4">
+									<div class="card clickable-item">
+										<a href="#" class="clickable-anchor"></a>
+										<div class="card-image have-price">
+											<div class="ratio-holder">
+												<div class="ratio menu-ratio"></div>
+												<div class="ratio-content">
+													<img src="images/menu/img-1.jpg" alt="image" draggable="false">
+												</div>
+											</div>
+											<div class="price-holder text-center">
+												<span class="price playfair-font">$30</span>
+											</div>
+										</div>
+										<div class="card-content text-center">
+											<div class="card-title black bold">
+												<a href="#"> Super BBQ Grill No Smoke </a>
+											</div>
+											<p class="paragraph">
+												Fried eggs, fried bacon, toast, fresh tomato salad, cup of coffee or tea
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="slider-item col-sm-4">
+									<div class="card clickable-item">
+										<a href="#" class="clickable-anchor"></a>
+										<div class="card-image have-price">
+											<div class="ratio-holder">
+												<div class="ratio menu-ratio"></div>
+												<div class="ratio-content">
+													<img src="images/menu/img-1.jpg" alt="image" draggable="false">
+												</div>
+											</div>
+											<div class="price-holder text-center">
+												<span class="price playfair-font">$30</span>
+											</div>
+										</div>
+										<div class="card-content text-center">
+											<div class="card-title black bold">
+												<a href="#"> Super BBQ Grill No Smoke </a>
+											</div>
+											<p class="paragraph">
+												Fried eggs, fried bacon, toast, fresh tomato salad, cup of coffee or tea
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="slider-item col-sm-4">
+									<div class="card clickable-item">
+										<a href="#" class="clickable-anchor"></a>
+										<div class="card-image have-price">
+											<div class="ratio-holder">
+												<div class="ratio menu-ratio"></div>
+												<div class="ratio-content">
+													<img src="images/menu/img-1.jpg" alt="image" draggable="false">
+												</div>
+											</div>
+											<div class="price-holder text-center">
+												<span class="price playfair-font">$30</span>
+											</div>
+										</div>
+										<div class="card-content text-center">
+											<div class="card-title black bold">
+												<a href="#"> Super BBQ Grill No Smoke </a>
+											</div>
+											<p class="paragraph">
+												Fried eggs, fried bacon, toast, fresh tomato salad, cup of coffee or tea
+											</p>
+										</div>
+									</div>
+								</div>
+
+							</div>	<!-- end row -->
+						</div> <!-- end slider -->
+						<div class="slider-arrows">
+							<button type="button" class="arrow next">
+								<i class="fa fa-angle-right"></i>
+							</button>
+							<button type="button" class="arrow prev">
+								<i class="fa fa-angle-left"></i>
+							</button>
+						</div>
+					</div> <!-- end slider container -->
+					<div class="text-center">
+						<a href="#" class="link playfair-font">view full menu</a>
+					</div>
+				</div>
+			</div>	<!-- end container -->
+		</section>
+        
+        <!----------- end menu section ------------->
+        
+        <!----------- start testimonials section ------------>
+        
+        <div class="section testimonials-section">
+			<div class="section-body">
+				<div class="testimonials-icon">
+					<span class="icon fa fa-quote-left"></span>
+				</div>
+
+				<div class="testimonials-content">
+					<p class="paragraph playfair-font">
+						I Love Cooking For Myself And Cooking For My Family
+					</p>
+				</div>
+
+				<h5 class="author">
+					Al Roker
+				</h5>
+
+			</div> 
+		</div>
+        
+        
+        <!---------- end testimonials section ------------->
+
+        <!---------- start chief-testimonials section ----------->
+        
+        <section class="section chief-testimonials">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-6 hidden-sm hidden-xs">
+        				<div class="chief-image ratio-holder">
+        					<div class="ratio chief-ratio"></div>
+        					<div class="ratio-content">
+        						<img src="images/chief.png" alt="chief" draggable="false">
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-md-6 col-xs-12">
+        				<div class="section-header text-right">
+        					<h2 class="section-title">
+        						<span class="small">review</span>
+        						<span class="playfair-font title">
+        							The Food’s Masters Say About Us
+        						</span>
+        					</h2>
+        				</div>
+        				<div class="section-body">
+        					<div class="slider-container chief-slider text-right">
+								<div class="slider">
+									<div class="slider-banner">
+										<div class="slider-item">
+											<div class="testimonial">
+												<h3 class="testimonial-title">
+													“Best restaurant that i used to experience!”
+												</h3>
+												<div class="testimonial-description">
+													<p class="paragraph">
+														Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.
+													</p>
+												</div>
+												<p class="paragraph author">
+													<span class="black bold">Thomas Eggsy</span>
+													- 
+													<span class="italic">Master Cheft at AI Restaurant</span>
+												</p>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div class="testimonial">
+												<h3 class="testimonial-title">
+													“Best restaurant that i used to experience!”
+												</h3>
+												<div class="testimonial-description">
+													<p class="paragraph">
+														Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.
+													</p>
+												</div>
+												<p class="paragraph author">
+													<span class="black bold">Thomas Eggsy</span>
+													- 
+													<span class="italic">Master Cheft at AI Restaurant</span>
+												</p>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div class="testimonial">
+												<h3 class="testimonial-title">
+													“Best restaurant that i used to experience!”
+												</h3>
+												<div class="testimonial-description">
+													<p class="paragraph">
+														Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.
+													</p>
+												</div>
+												<p class="paragraph author">
+													<span class="black bold">Thomas Eggsy</span>
+													- 
+													<span class="italic">Master Cheft at AI Restaurant</span>
+												</p>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div class="testimonial">
+												<h3 class="testimonial-title">
+													“Best restaurant that i used to experience!”
+												</h3>
+												<div class="testimonial-description">
+													<p class="paragraph">
+														Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.
+													</p>
+												</div>
+												<p class="paragraph author">
+													<span class="black bold">Thomas Eggsy</span>
+													- 
+													<span class="italic">Master Cheft at AI Restaurant</span>
+												</p>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div class="testimonial">
+												<h3 class="testimonial-title">
+													“Best restaurant that i used to experience!”
+												</h3>
+												<div class="testimonial-description">
+													<p class="paragraph">
+														Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.
+													</p>
+												</div>
+												<p class="paragraph author">
+													<span class="black bold">Thomas Eggsy</span>
+													- 
+													<span class="italic">Master Cheft at AI Restaurant</span>
+												</p>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div class="testimonial">
+												<h3 class="testimonial-title">
+													“Best restaurant that i used to experience!”
+												</h3>
+												<div class="testimonial-description">
+													<p class="paragraph">
+														Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio.
+													</p>
+												</div>
+												<p class="paragraph author">
+													<span class="black bold">Thomas Eggsy</span>
+													- 
+													<span class="italic">Master Cheft at AI Restaurant</span>
+												</p>
+											</div>
+										</div>
+									</div> <!-- end slider-banner -->
+								</div> <!-- end slider -->
+								
+								<div class="slider-arrows">
+									<button type="button" class="arrow prev">
+										<i class="fa fa-arrow-left"></i>
+									</button>
+									<button type="button" class="arrow next">
+										<i class="fa fa-arrow-right"></i>
+									</button>
+								</div>
+								
+							</div> <!-- end slider-container -->
+        				</div> <!-- end section-body -->
+        			</div>
+        		</div> <!-- end row -->
+        	</div> <!-- end container -->
+        </section>
+        
+        <!---------- end chief-testimonials section ----------->
+        
+        
+        
+        <!---------- Start news Section ----------->
+        
+		<section class="section news bg-pattern">
+				<div class="section-header text-center">
+					<div class="section-title">
+						<span class="small">our news</span>
+						<span class="playfair-font title bold">Promotions &amp; Events</span>
+					</div>
+				</div>
+				<div class="section-body container">
+					<div class="row">
+						<div class="col-sm-8 col-xs-12">
+							<div class="row">
+								<div class="card event-card clickable-item no-padding">
+									<a href="#" class="clickable-anchor"></a>
+									<div class="card-image no-padding no-margin col-sm-6 col-xs-12">
+										<div class="ratio-holder">
+											<div class="ratio square-ratio"></div>
+											<div class="ratio-content">
+												<img src="images/menu/img-1.jpg" alt="image" draggable="false">
+											</div>
+										</div>
+									</div>
+									<div class="card-content no-padding text-center col-sm-6 col-xs-12 has-arrow arrow-left">
+										<div class="ratio-holder">
+											<div class="ratio square-ratio"></div>
+											<div class="ratio-content">
+												<div class="vertical-center">
+													<div class="vertical-center-content">
+														<div class="card-title black bold playfair-font border-bottom-dashed">
+															<a href="#"> Beef Sauteed Onions - Let’s Enjoy! </a>
+														</div>
+														<span class="paragraph display-block"> 123 Broadway St, NY, United States  </span>
+														<span class="paragraph display-block"> 10:00Am - 14:00Pm </span>
+														<span class="paragraph display-block"> Monday, Sep, 25th, 2016 </span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="card event-card clickable-item no-padding">
+									<a href="#" class="clickable-anchor"></a>
+									
+									<div class="card-image no-padding no-margin col-sm-6 col-xs-12 col-sm-push-6">
+										<div class="ratio-holder">
+											<div class="ratio square-ratio"></div>
+											<div class="ratio-content">
+												<img src="images/menu/img-1.jpg" alt="image" draggable="false">
+											</div>
+										</div>
+									</div>
+									<div class="card-content no-padding text-center col-sm-6 col-xs-12 col-sm-pull-6 has-arrow arrow-right">
+										<div class="ratio-holder">
+											<div class="ratio square-ratio"></div>
+											<div class="ratio-content">
+												<div class="vertical-center">
+													<div class="vertical-center-content">
+														<div class="card-title black bold playfair-font border-bottom-dashed">
+															<a href="#"> Beef Sauteed Onions - Let’s Enjoy! </a>
+														</div>
+														<span class="paragraph display-block"> 123 Broadway St, NY, United States  </span>
+														<span class="paragraph display-block"> 10:00Am - 14:00Pm </span>
+														<span class="paragraph display-block"> Monday, Sep, 25th, 2016 </span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-sm-4 col-xs-12 no-padding">
+							<div class="card event-card clickable-item no-padding">
+								<a href="#" class="clickable-anchor"></a>
+								<div class="card-image">
+									<div class="ratio-holder">
+										<div class="ratio square-ratio"></div>
+										<div class="ratio-content">
+											<img src="images/menu/img-1.jpg" alt="image" draggable="false">
+										</div>
+									</div>
+								</div>
+								<div class="card-content text-center has-arrow arrow-top">
+									<div class="ratio-holder">
+										<div class="ratio square-ratio"></div>
+										<div class="ratio-content">
+											<div class="vertical-center">
+												<div class="vertical-center-content">
+													<div class="card-title black bold playfair-font border-bottom-dashed">
+														<a href="#"> Beef Sauteed Onions - Let’s Enjoy! </a>
+													</div>
+													<span class="paragraph display-block"> 123 Broadway St, NY, United States  </span>
+													<span class="paragraph display-block"> 10:00Am - 14:00Pm </span>
+													<span class="paragraph display-block"> Monday, Sep, 25th, 2016 </span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						
+					</div> <!-- end row -->
+				</div> <!-- end section-body and container -->
+		</section>
+        
+        <!---------- End news Section ---------->
+        <!---------- start contact-us Section ---------->
+        
+        <div class="section contactus-section bg-pattern">
+
+			<div class="section-header">
+				<h2 class="section-title text-center">
+					<span class="small">contact us</span>
+					<span class="playfair-font">
+						We Alway Here To Helps You
+					</span>
+				</h2>
+			</div>
+			<div class="container">
+
+				<div class="section-body">
+
+					<div class="row line-bottom">
+
+						<div class="col-sm-6 col-xs-12">
+							<h3 class="country-city playfair-font">
+								Melbourne, <span class="country">Australia</span>
+							</h3>
+							<p class="paragraph address">
+								269 King Str, 05th Floor, Utral Hosue Building,
+								<br>
+								Melbourne, VIC 3000, Australia.
+							</p>
+
+							<p class="paragraph email">
+								<span class="black bold">Email: </span> infor@airestaurant.com
+							</p>
+						</div>
+
+						<div class="col-sm-6 col-xs-12">
+							<div class="call-us">
+								<p class="paragraph">call directly:</p>
+								<h4 class="phone-number playfair-font">+99 (0) 344 956 4050</h4>
+							</div>
+
+							<div class="service">
+								<h4 class="service-title">
+									Lunch Service:
+								</h4>
+								<p class="paragraph service-description">
+									Friday, Saturday and Sunday: Bookings
+								</p>
+								<p class="paragraph service-date">
+									from 12pm - 1.30pm.
+								</p>
+							</div>
+
+							<div class="service">
+								<h4 class="service-title">
+									Dinner Service:
+								</h4>
+								<p class="paragraph service-description">
+									Daily: Bookings
+								</p>
+								<p class="paragraph service-date">
+									from 6pm - 9.30pm
+								</p>
+							</div>
+
+						</div>
+
+					</div> <!-- end row -->
+
+				</div> <!-- end section-body -->
+			</div> <!-- end container -->
+
+		</div>
+        
+        <div class="map">
+        	 <iframe class="scrolloff" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d25216.944676101513!2d144.9527472!3d-37.810703!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1495888057574" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+        
+        <!---------- End contact-us Section ---------->
+        
+        <!---------- start footer section ---------->
+        
+		<footer class="footer">
+			<div class="logo">
+				<img src="images/logo.png" alt="Logo" draggable="false">
+			</div>
+
+			<ul class="footer-links">
+				<li class="f-link">
+					<a href="#">Reservations</a>
+				</li>
+				<li class="f-link">
+					<a href="#">Functions</a>
+				</li>
+				<li class="f-link">
+					<a href="#">Contact</a>
+				</li>
+				<li class="f-link">
+					<a href="#">Reviews &amp; Media</a>
+				</li>
+			</ul>
+
+
+			<ul class="social-media">
+				<li class="list-item">
+					<a href="#" class="icon fa fa-twitter"></a>
+				</li>
+				<li class="list-item">
+					<a href="#" class="icon fa fa-facebook"></a>
+				</li>
+				<li class="list-item">
+					<a href="#" class="icon fa fa-google-plus"></a>
+				</li>
+				<li class="list-item">
+					<a href="#" class="icon fa fa-instagram"></a>
+				</li>
+				<li class="list-item">
+					<a href="#" class="icon fa fa-rss"></a>
+				</li>
+			</ul>
+
+			<p class="copyrights">
+				<span class="icon fa fa-copyright"></span> Ai Restaurant.
+				<br>
+				Design by Abdelrhman. All Rights Reserved
+			</p>
+
+    	</footer>
+
+        <!---------- end footer section --------->
+        
+        <!-- start loading section -->
+        
+        <div class="loading-overlay">
+			<div class="sk-folding-cube">
+				<div class="sk-cube1 sk-cube"></div>
+				<div class="sk-cube2 sk-cube"></div>
+				<div class="sk-cube4 sk-cube"></div>
+				<div class="sk-cube3 sk-cube"></div>
+			</div>
+        </div>
+        
+        <!-- end loading section -->
+        
+        <script src="js/vendors/jquery-1.12.0.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
